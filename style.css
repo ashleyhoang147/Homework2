@@ -16,3 +16,30 @@ footer{
     background-color: gray;
     text-align: center;
 }
+/* Container needed to position the button. Adjust the width as needed */
+.thumbnail {
+    position: relative;
+    width: 50%;
+  }
+.thumbnail img {
+margin-top: 10px;
+margin-bottom: 20px;
+}
+  /* Style the button and place it in the middle of the container/image */
+  .thumbnail .btn {
+    position: absolute;
+    top: 80%;
+    left: 104%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    background-color:  rgb(76, 189, 189);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 450px;
+  }
+  
+  .thumbnail .btn:hover {
+    background-color: black;
+  }
