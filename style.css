@@ -9,10 +9,10 @@
     float: right;
     margin: 10px;
 }
-.wrapimage{
-    float: left;
+img {
+  float: left;
 }
-footer{
+#footer{
     background-color: gray;
     text-align: center;
 }
@@ -43,6 +43,8 @@ margin-bottom: 20px;
 .thumbnail .btn:hover {
     background-color: black;
   }
-#submitbutton{
-  background-color: aqua;
+/*CSS Styling for contact page*/
+  #submitbutton{
+  background-color:  rgb(76, 189, 189);
+  border: none;
 }
