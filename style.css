@@ -5,10 +5,6 @@
     font-size: 24px;
     text-align: center;
 }
-.wraptext{
-    float: right;
-    margin: 10px;
-}
 img {
   float: left;
 }
@@ -18,30 +14,33 @@ img {
 }
 /* Container needed to position the button. Adjust the width as needed */
 .thumbnail {
-    position: relative;
-    width: 50%;
+  position: relative;
+  width: 100%;
+  max-width: 400px;
   }
 .thumbnail img {
-margin-top: 10px;
-margin-bottom: 20px;
+  width: 100%;
+  height: auto;
 }
   /* Style the button and place it in the middle of the container/image */
 .thumbnail .btn {
-    position: absolute;
-    top: 80%;
-    left: 104%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    color: white;
-    background-color:  rgb(76, 189, 189);
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    width: 450px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:  rgb(76, 189, 189);
+  color: white;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
   }
   
 .thumbnail .btn:hover {
-    background-color: black;
+    background-color: gray;
   }
 /*CSS Styling for contact page*/
   #submitbutton{
