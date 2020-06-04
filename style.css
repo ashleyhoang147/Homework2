@@ -8,9 +8,18 @@
 img {
   float: left;
 }
-#footer{
+.footer{
     background-color: gray;
     text-align: center;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
 }
 /* Container needed to position the button. Adjust the width as needed */
 .thumbnail {
@@ -25,7 +34,7 @@ img {
   /* Style the button and place it in the middle of the container/image */
 .thumbnail .btn {
   position: absolute;
-  top: 10%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -37,6 +46,7 @@ img {
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
+  width: 90%;
   }
   
 .thumbnail .btn:hover {
