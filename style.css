@@ -8,9 +8,15 @@
 img {
   float: left;
 }
-.footer{
+#footer{
     background-color: gray;
     text-align: center;
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: gray;
+   color: white;
 }
 .flex-container {
   display: flex;
