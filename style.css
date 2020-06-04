@@ -26,7 +26,7 @@ margin-top: 10px;
 margin-bottom: 20px;
 }
   /* Style the button and place it in the middle of the container/image */
-  .thumbnail .btn {
+.thumbnail .btn {
     position: absolute;
     top: 80%;
     left: 104%;
@@ -40,6 +40,9 @@ margin-bottom: 20px;
     width: 450px;
   }
   
-  .thumbnail .btn:hover {
+.thumbnail .btn:hover {
     background-color: black;
   }
+#submitbutton{
+  background-color: aqua;
+}
